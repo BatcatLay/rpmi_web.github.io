@@ -1,0 +1,162 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fascinate-regular {
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.expositores {
+    color: rgb(89, 24, 109) !important;
+}
+
+.actividades {
+    color: #c8a0e4 !important;
+}
+
+.navbar {
+    animation: none !important;
+}
+
+.home {
+    color: #c8a0e4 !important;
+}
+
+.Textos {
+    animation: cambio_pagina;
+    animation-duration: 2s;
+}
+
+.art {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 14%;
+    top: -23%;
+    border-radius: 20px;
+    line-height: 400%;
+
+}
+
+.art img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(255, 255, 255) 0px 10px 30px 8px, rgb(206, 81, 255) 0px 22px 60px 8px;
+    border-radius: 10px;
+}
+.art p{
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: "Pacifico", cursive;
+    color: #29133a;
+}
+
+.over {
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    bottom: 15%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f86ff13d;
+
+}
+
+.text {
+    color: rgb(40, 9, 70);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+
+.art:hover .over {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.games {
+    width: 600px;
+    height: 60px;
+    position: relative;
+    left: -36%;
+    top: -44%;
+    line-height: 450%;
+    
+
+}
+
+.games img {
+    display: block;
+    width: 100%;
+    height: 590%;
+    border-radius: 10px;
+    box-shadow: rgb(255, 255, 255) 0px 10px 30px 8px, rgb(206, 81, 255) 0px 22px 60px 8px;
+    
+}
+
+.games p{
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: "Pacifico", cursive;
+    color: #29133a;
+}
+
+.games:hover .over2 {
+    opacity: 1;
+}
+
+.over2 {
+    position: absolute;
+    height: 600%;
+    width: 100%;
+    bottom: -500%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f5d3a854;
+
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Pacifico", cursive;
+}
+
+footer {
+    width: 100%;
+    min-height: 40px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(229, 160, 231), rgba(167, 65, 159, 0));
+    padding: 20px 0;
+    gap: 700px;
+    position: absolute;
+    top: 90%;
+}
+
